@@ -1,0 +1,26 @@
+{
+	"name": "verbi/yii2-ajax-loading-spinner",
+	"description": "Yii2 AJAX Loading Spinner Extension.",
+	"keywords": ["yii2", "extension", "AJAX loading spinner", "html"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/verbi/yii2-ajax-loading-spinner"
+	},
+        "requires": [
+          {
+              "npm-asset/pure-css-loader": "*"
+          }
+        ],
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2AjaxLoadingSpinner\\": "src/"
+		}
+	}
+}
